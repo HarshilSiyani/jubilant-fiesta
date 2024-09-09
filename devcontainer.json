@@ -1,0 +1,6 @@
+{
+    "name": "PHP & PostgreSQL",
+    "dockerFile": "Dockerfile",
+    "extensions": ["felixfbecker.php-pack"],
+    "postCreateCommand": "composer install"
+}
